@@ -8,21 +8,19 @@ The project also includes activity logging, backup support, and master password 
 
 ## 📂 Project Structure
 
-password-manager/
-│── main.py # Entry point with menu-driven interface
-│── manager.py # Core password management features
-│── encryption.py # Encryption & decryption logic
-│── utils.py # Utility functions (logging, validation, etc.)
-│── data.json # Stores encrypted passwords (auto-generated)
-│── backup.json # Backup of passwords
-│── activity.log # Log of all activities
-│── key.key # Encryption key (auto-generated)
-│── secret.key # Additional key for master password
-│── README.md # Documentation
-
-
-
----
+```
+📁 password-manager
+│── main.py              # Entry point of the application (menu-driven interface)
+│── manager.py           # Core logic for password management (add, edit, delete, list, etc.)
+│── encryption.py        # Handles encryption and decryption of data
+│── utils.py             # Helper functions (file handling, validations, etc.)
+│── data.json            # Encrypted storage for passwords
+│── backup.json          # Backup file of saved passwords
+│── key.key              # Encryption key (DO NOT share or delete)
+│── secret.key           # Master password key file
+│── activity.log         # Logs all password manager activities
+│── README.md            # Project documentation
+```
 
 ## ⚡ Features
 
